@@ -1,2 +1,4 @@
-# Healthacre-Data-Privacy-using-Federated-Learning
-A privacy-preserving federated learning framework for healthcare that integrates homomorphic encryption (CKKS) and differential privacy (DP). Enables secure model training across institutions without sharing raw data, using FedAvg.
+# Healthcare-Data-Privacy-using-Federated-Learning
+This project presents a privacy-preserving federated learning (FL) framework designed for secure medical AI applications. It integrates homomorphic encryption (CKKS) to ensure that model updates are transmitted and aggregated in encrypted form, protecting data throughout the training process. Differential privacy (DP) is applied to gradients to anonymize individual contributions, preventing data leakage even in distributed environments. The system uses ResNet-18 for effective feature extraction from medical images, enabling high-quality learning across decentralized clients. Federated Averaging (FedAvg) coordinates model updates without requiring access to raw patient data, preserving both privacy and performance. The framework is validated using the Medical MNIST dataset, simulating real-world, non-IID medical data scenarios while maintaining compliance with healthcare data regulations.
+
+https://github.com/user-attachments/assets/2b1a9b71-d0d0-41a2-a0cf-ec3a75407e58
